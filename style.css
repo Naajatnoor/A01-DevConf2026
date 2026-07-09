@@ -56,8 +56,9 @@ header{
 }
 
 header h1{
-font-size: 5rem;
+font-size: 4rem;
 }
+
 
 
 
@@ -69,12 +70,12 @@ font-size: 5rem;
 
 
 header p{
-    padding: 5px 100px;
+    padding: 2px 100px;
 }
 header button{
-
+ margin-bottom: 0px;
   margin-top: 200px;
-  margin-bottom: 0px;
+ 
 
 }
 
@@ -98,6 +99,7 @@ header button{
 }
 
 .ch2 li img{
+    margin: 5px;
     padding: 8px;
     width: 45px;
 }
