@@ -8,11 +8,19 @@ section{
     padding: 20px 8%;
 }
 
+.cmn-color2{
+    color: #575757;
+}
+
+.cmn-color1{
+    color: #2563EB;
+}
+
 .common-button{
     background-color: #1D4ED8;
     color: white;
 padding: 10px 30px;
-font-size: 14px;
+font-size: 15px;
 border: none;
 border-radius: 8px;
 cursor: pointer;
@@ -48,7 +56,7 @@ cursor: pointer;
 /* styling header or banner part */
 header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./assets/banner.jpg');
-    height: 90vh;
+    height: 70vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -56,7 +64,7 @@ header{
 }
 
 header h1{
-font-size: 4rem;
+font-size: 3rem;
 }
 
 
@@ -64,13 +72,15 @@ font-size: 4rem;
 
 .header-parent{
     text-align: center;
-    color: antiquewhite;
-    padding: 100px 100px;
+    color: white;
+    padding:100px;
 }
 
 
 header p{
-    padding: 2px 100px;
+    padding: 10px 100px;
+    font-size: 12px;
+    word-spacing: 1px; 
 }
 header button{
  margin-bottom: 0px;
@@ -78,6 +88,13 @@ header button{
  
 
 }
+
+/* Meet the speaker section */
+section h1{
+    padding: 20px;
+    text-align: center;
+}
+
 
 /* footer*/
 /* section{
@@ -111,7 +128,36 @@ footer p{
     color:#575757;
 }
 
+.Speaker-parent h1{
+    padding: 30px;
 
+}
+
+.container{
+
+ display: grid;
+ grid-template-columns: repeat(2,2fr);
+ grid-template-columns: 400px 400px;
+
+ justify-content: center;
+ align-content: center;
+ gap: 20px;
+
+/* 
+row-gap: 10px;
+column-gap: 30px; */
+
+}
+
+
+.card-child{
+    border: #575757;
+    background-color:#eff0f2
+}
+
+.card-child p {
+    padding: 4px;
+}
 
 
 
