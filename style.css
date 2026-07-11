@@ -99,7 +99,7 @@ section h1{
 
 
 .Speaker-parent h1{
-    padding: 30px;
+    padding: 40px;
 
 }
 
@@ -118,6 +118,7 @@ section h1{
     border: 1px solid #ece9e9;
     background-color:#eff0f2;
     border-radius: 10px;
+    
   
 }
 .card-child img{
@@ -128,10 +129,9 @@ section h1{
 }
 
 .card-child p{
-    padding: 0px 18px;
+    padding: 0px 16px;
     margin: 10px; 
 }
-
 
 
 .card-child-size{
