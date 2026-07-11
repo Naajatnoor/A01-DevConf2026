@@ -28,7 +28,7 @@ cursor: pointer;
 
 
 
-nav{
+.common-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -161,10 +161,16 @@ section h1{
 .secure-your-spot-top-part h1{
     font-size: 2.5rem;
 }
-.secure-your-spot-card{
-    display: flex;
+
+.flex{
+     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
+}
+.secure-your-spot-card{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     margin: 30px;
     gap: 20px;
     
@@ -413,7 +419,7 @@ section h1{
     justify-content: space-between;
     align-items: center;
   
-}
+} 
 
 .footer-child{
     list-style: none;
