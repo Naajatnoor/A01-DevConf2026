@@ -8,30 +8,27 @@ section{
     padding: 20px 8%;
 }
 
-.cmn-color2{
-    color: #575757;
-}
-
 .cmn-color1{
     color: #2563EB;
+}
+.cmn-color2{
+    color: #575757;
 }
 
 .common-button{
 background-color: #1D4ED8;
 color: white;
-padding: 10px 30px;
-font-size: 15px;
+padding: 10px 28px;
+font-size: 14px;
 border: none;
 border-radius: 8px;
 cursor: pointer;
 }
-
-
-
+/* navigation styling */
 .common-nav{
-    display: flex;
+     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     background-color:#ffff ;
     padding: 18px 8%;
 }
@@ -62,6 +59,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 
 }
 
@@ -110,14 +108,11 @@ section h1{
  display: grid;
  grid-template-columns: repeat(2,2fr);
  grid-template-columns: 400px 400px;
-
  justify-content: center;
  align-content: center;
  gap: 20px;
 
 }
-
-
 
 .card-child{
     border: 1px solid #ece9e9;
@@ -162,15 +157,10 @@ section h1{
     font-size: 2.5rem;
 }
 
-.flex{
+.secure-your-spot-card{
      display: flex;
     justify-content: center;
-    align-items: center
-}
-.secure-your-spot-card{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    align-items: center;  
     margin: 30px;
     gap: 20px;
     
@@ -228,6 +218,13 @@ section h1{
 .pro-color1{
     color: white;
 }
+
+.pro-color2{
+    color: #a8a6a6;
+
+}
+
+
 
 .pro{
    background-color: #0D1B2A;
@@ -291,7 +288,7 @@ section h1{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin: 50px;
+    margin: 30px 100px;
 }
 
 /* FAQ Card */
@@ -418,6 +415,7 @@ section h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 4px;
   
 } 
 
